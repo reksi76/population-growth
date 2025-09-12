@@ -1,6 +1,7 @@
 # Import library yang dibutuhkan
 import numpy as np 
 import matplotlib.pyplot as plt
+import csv
 
 # Input dari pengguna
 P0 = int(input('Masukkan jumlah penduduk awal: '))         # Populasi awal
@@ -23,15 +24,21 @@ P = [P0 * np.exp(r * i) for i in n]
 
 # Tampilkan laju pertumbuhan dan populasi tiap tahun
 print(f'\nLaju pertumbuhan penduduk = {r:.4f}')
-for value in P:
-    print(value)
+
+#Simpan data di csv
+with open ('data/populasi2.csv','w',newline='') as f:
+    writer = csv.writer(f)
+    writer.writerow(['Tahun','Populasi'])
+    for tahun, populasi in zip(range(t+1),P):
+        writer.writerow([tahun, round(populasi,2)])
+
 
 # Visualisasi pertumbuhan populasi
 plt.plot(n, P, marker='o')
 plt.title(f'Pertumbuhan Jumlah Penduduk dalam {t} Tahun')
-plt.xlabel('Tahun')
+plt.xlabel('Periode Tahun')
 plt.ylabel('Jumlah Penduduk')
 plt.grid(True)
-plt.savefig("population_plot.png")  # simpan file di folder repo
+plt.savefig("plots/population_plot2.png")  # simpan file di folder repo
 
 plt.show()
