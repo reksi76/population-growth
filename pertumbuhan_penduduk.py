@@ -32,4 +32,6 @@ plt.title(f'Pertumbuhan Jumlah Penduduk dalam {t} Tahun')
 plt.xlabel('Tahun')
 plt.ylabel('Jumlah Penduduk')
 plt.grid(True)
+plt.savefig("population_plot.png")  # simpan file di folder repo
+
 plt.show()
