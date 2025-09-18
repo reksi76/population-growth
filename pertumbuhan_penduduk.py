@@ -80,7 +80,7 @@ def main():
 
     except ValueError as ve:
         print(f'Error : {ve}')
-    #except Exception as e:
+    except Exception as e:
         print(f'Terjadi kesalahan: {e}')
 
 if __name__ == '__main__':
