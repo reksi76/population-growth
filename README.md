@@ -27,7 +27,7 @@ Program ini juga dapat menghitung **laju pertumbuhan** r jika jumlah penduduk aw
    - Grafik pertumbuhan populasi
 
 ## Contoh Output
-![Plot Pertumbuhan Penduduk](plots/population_plot.png)
+![Plot Pertumbuhan Penduduk](plots/gambar_grafik.png)
 
 Gambar menampilkan perkiraan laju pertumbuhan dalam periode 15 tahun di Indonesia (2010-2025) dengan jumlah penduduk awal **P0 = 237.6 juta** dan penduduk setelah 15 tahun **Pt = 277.1 juta** dan jumlah penduduk random
 
@@ -54,4 +54,5 @@ dengan:
 2 → Simpan data (CSV + JSON)
 
 3 → Keduanya (default)
+
 
