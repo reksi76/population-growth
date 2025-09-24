@@ -56,3 +56,20 @@ dengan:
 3 → Keduanya (default)
 
 
+## v3.0
+## Testing
+
+Project ini sudah dilengkapi dengan unit test menggunakan **pytest**.  
+Tujuan test adalah memastikan fungsi perhitungan, penyimpanan data, dan plotting berjalan sesuai harapan.
+
+## Menjalankan Test
+```bash
+pytest -v
+Cakupan
+Calculator → hitung laju & populasi
+
+IO Handler → simpan CSV & JSON
+
+Plotter → generate grafik PNG
+(Penambahan testing untuk memastikan program berjalan sesuai harapan)
+
