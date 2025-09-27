@@ -27,7 +27,7 @@ Program ini juga dapat menghitung **laju pertumbuhan** r jika jumlah penduduk aw
    - Grafik pertumbuhan populasi
 
 ## Contoh Output
-![Plot Pertumbuhan Penduduk](plots/gambar_grafik.png)
+![Plot Pertumbuhan Penduduk](plots/perbandingan.png)
 
 Gambar menampilkan hasil simulasi pertumbuhan populasi rusa Kaibab dengan:
 
@@ -74,11 +74,12 @@ Tujuan test adalah memastikan fungsi perhitungan, penyimpanan data, dan plotting
 ## Menjalankan Test
 ```bash
 pytest -v
+```
 Cakupan
 Calculator → hitung laju & populasi
 
 IO Handler → simpan CSV & JSON
----
+
 
 Plotter → generate grafik PNG
 (Penambahan testing untuk memastikan program berjalan sesuai harapan)
@@ -132,6 +133,7 @@ Jika **--model** tidak disebutkan, default tetap menggunakan **eksponensial**.
 
 ✅ Sudah terintegrasi ke dalam pipeline testing
 🚧 Masih tahap pengembangan untuk validasi data lapangan dan visualisasi interaktif
+
 
 
 
