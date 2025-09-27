@@ -29,7 +29,17 @@ Program ini juga dapat menghitung **laju pertumbuhan** r jika jumlah penduduk aw
 ## Contoh Output
 ![Plot Pertumbuhan Penduduk](plots/gambar_grafik.png)
 
-Gambar menampilkan perkiraan laju pertumbuhan dalam periode 15 tahun di Indonesia (2010-2025) dengan jumlah penduduk awal **P0 = 237.6 juta** dan penduduk setelah 15 tahun **Pt = 277.1 juta** dan jumlah penduduk random
+Gambar menampilkan hasil simulasi pertumbuhan populasi rusa Kaibab dengan:
+
+Populasi awal P0 = 4.000 ekor
+
+- Laju pertumbuhan intrinsik r = 0.1
+
+- Kapasitas dukung lingkungan (K) sebesar 100.000 ekor
+
+- Periode waktu simulasi 50 tahun
+
+Grafik memperlihatkan perbandingan pertumbuhan exponential dan logistic (lihat v4.0).
 
 Status: Tahap pengembangan (v1.0)
 
@@ -72,4 +82,56 @@ IO Handler → simpan CSV & JSON
 
 Plotter → generate grafik PNG
 (Penambahan testing untuk memastikan program berjalan sesuai harapan)
+
+## v4.0
+
+### Model Logistik (Kaibab Deer)
+
+Mulai versi ini, program mendukung simulasi dengan **model pertumbuhan logistik**. Model ini lebih realistis untuk populasi hewan maupun manusia dalam jangka panjang karena adanya batas daya dukung lingkungan (*carrying capacity*).
+
+**Rumus Logistik:**
+
+$$
+P(t) = \frac{K}{1 + \left(\frac{K - P_0}{P_0}\right)e^{-rt}}
+$$
+
+* **P0** : populasi awal
+* **K** : *carrying capacity* (kapasitas dukung lingkungan)
+* **r** : laju pertumbuhan intrinsik
+* **t** : waktu
+
+### Contoh: Kaibab Deer
+
+* Populasi awal = 4.000 ekor
+* Kapasitas dukung (K) = 100.000 ekor
+* Laju pertumbuhan = 0.1
+
+Hasil simulasi akan menampilkan grafik pertumbuhan yang mendekati **K** setelah waktu yang cukup panjang.
+
+### Cara Menggunakan
+
+Tambahkan argumen `--model` untuk memilih model pertumbuhan:
+
+```bash
+python src/main.py --tahun 50 --P0 4000 --r 0.1 --K 100000 --model logistic
+```
+
+Argumen tambahan:
+
+* **--r** : laju pertumbuhan
+* **--K** : kapasitas dukung (*carrying capacity*)
+
+Jika **--model** tidak disebutkan, default tetap menggunakan **eksponensial**.
+
+### Output
+
+* Grafik pertumbuhan populasi logistik
+* Data populasi tiap tahun (opsional, CSV/JSON jika dipilih)
+
+### Status
+
+✅ Sudah terintegrasi ke dalam pipeline testing
+🚧 Masih tahap pengembangan untuk validasi data lapangan dan visualisasi interaktif
+
+---
 

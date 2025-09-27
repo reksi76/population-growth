@@ -1,0 +1,177 @@
+[
+    {
+        "Tahun": 0,
+        "Populasi (Exponential)": 4000,
+        "Populasi (Logistic)": 4000
+    },
+    {
+        "Tahun": 1,
+        "Populasi (Exponential)": 4397,
+        "Populasi (Logistic)": 4348
+    },
+    {
+        "Tahun": 2,
+        "Populasi (Exponential)": 4834,
+        "Populasi (Logistic)": 4721
+    },
+    {
+        "Tahun": 3,
+        "Populasi (Exponential)": 5314,
+        "Populasi (Logistic)": 5122
+    },
+    {
+        "Tahun": 4,
+        "Populasi (Exponential)": 5841,
+        "Populasi (Logistic)": 5550
+    },
+    {
+        "Tahun": 5,
+        "Populasi (Exponential)": 6422,
+        "Populasi (Logistic)": 6006
+    },
+    {
+        "Tahun": 6,
+        "Populasi (Exponential)": 7059,
+        "Populasi (Logistic)": 6492
+    },
+    {
+        "Tahun": 7,
+        "Populasi (Exponential)": 7760,
+        "Populasi (Logistic)": 7007
+    },
+    {
+        "Tahun": 8,
+        "Populasi (Exponential)": 8531,
+        "Populasi (Logistic)": 7553
+    },
+    {
+        "Tahun": 9,
+        "Populasi (Exponential)": 9378,
+        "Populasi (Logistic)": 8129
+    },
+    {
+        "Tahun": 10,
+        "Populasi (Exponential)": 10309,
+        "Populasi (Logistic)": 8735
+    },
+    {
+        "Tahun": 11,
+        "Populasi (Exponential)": 11333,
+        "Populasi (Logistic)": 9370
+    },
+    {
+        "Tahun": 12,
+        "Populasi (Exponential)": 12458,
+        "Populasi (Logistic)": 10033
+    },
+    {
+        "Tahun": 13,
+        "Populasi (Exponential)": 13695,
+        "Populasi (Logistic)": 10724
+    },
+    {
+        "Tahun": 14,
+        "Populasi (Exponential)": 15055,
+        "Populasi (Logistic)": 11441
+    },
+    {
+        "Tahun": 15,
+        "Populasi (Exponential)": 16550,
+        "Populasi (Logistic)": 12182
+    },
+    {
+        "Tahun": 16,
+        "Populasi (Exponential)": 18193,
+        "Populasi (Logistic)": 12944
+    },
+    {
+        "Tahun": 17,
+        "Populasi (Exponential)": 20000,
+        "Populasi (Logistic)": 13725
+    },
+    {
+        "Tahun": 18,
+        "Populasi (Exponential)": 21986,
+        "Populasi (Logistic)": 14523
+    },
+    {
+        "Tahun": 19,
+        "Populasi (Exponential)": 24169,
+        "Populasi (Logistic)": 15333
+    },
+    {
+        "Tahun": 20,
+        "Populasi (Exponential)": 26569,
+        "Populasi (Logistic)": 16153
+    },
+    {
+        "Tahun": 21,
+        "Populasi (Exponential)": 29207,
+        "Populasi (Logistic)": 16979
+    },
+    {
+        "Tahun": 22,
+        "Populasi (Exponential)": 32108,
+        "Populasi (Logistic)": 17807
+    },
+    {
+        "Tahun": 23,
+        "Populasi (Exponential)": 35296,
+        "Populasi (Logistic)": 18634
+    },
+    {
+        "Tahun": 24,
+        "Populasi (Exponential)": 38801,
+        "Populasi (Logistic)": 19456
+    },
+    {
+        "Tahun": 25,
+        "Populasi (Exponential)": 42654,
+        "Populasi (Logistic)": 20269
+    },
+    {
+        "Tahun": 26,
+        "Populasi (Exponential)": 46889,
+        "Populasi (Logistic)": 21070
+    },
+    {
+        "Tahun": 27,
+        "Populasi (Exponential)": 51545,
+        "Populasi (Logistic)": 21856
+    },
+    {
+        "Tahun": 28,
+        "Populasi (Exponential)": 56664,
+        "Populasi (Logistic)": 22623
+    },
+    {
+        "Tahun": 29,
+        "Populasi (Exponential)": 62290,
+        "Populasi (Logistic)": 23370
+    },
+    {
+        "Tahun": 30,
+        "Populasi (Exponential)": 68476,
+        "Populasi (Logistic)": 24093
+    },
+    {
+        "Tahun": 31,
+        "Populasi (Exponential)": 75275,
+        "Populasi (Logistic)": 24791
+    },
+    {
+        "Tahun": 32,
+        "Populasi (Exponential)": 82750,
+        "Populasi (Logistic)": 25462
+    },
+    {
+        "Tahun": 33,
+        "Populasi (Exponential)": 90967,
+        "Populasi (Logistic)": 26104
+    },
+    {
+        "Tahun": 34,
+        "Populasi (Exponential)": 100000,
+        "Populasi (Logistic)": 26718
+    }
+]
