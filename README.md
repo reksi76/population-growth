@@ -41,7 +41,6 @@ Populasi awal P0 = 4.000 ekor
 
 Grafik memperlihatkan perbandingan pertumbuhan exponential dan logistic (lihat v4.0).
 
-Status: Tahap pengembangan (v1.0)
 
 ## v2.0
 - Pengalihan dari *input()* ke *argparse*
@@ -79,6 +78,7 @@ Cakupan
 Calculator → hitung laju & populasi
 
 IO Handler → simpan CSV & JSON
+---
 
 Plotter → generate grafik PNG
 (Penambahan testing untuk memastikan program berjalan sesuai harapan)
@@ -133,5 +133,5 @@ Jika **--model** tidak disebutkan, default tetap menggunakan **eksponensial**.
 ✅ Sudah terintegrasi ke dalam pipeline testing
 🚧 Masih tahap pengembangan untuk validasi data lapangan dan visualisasi interaktif
 
----
+
 
