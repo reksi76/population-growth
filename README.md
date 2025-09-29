@@ -131,8 +131,7 @@ Jika **--model** tidak disebutkan, default tetap menggunakan **eksponensial**.
 
 ### Status
 
-✅ Sudah terintegrasi ke dalam pipeline testing
-🚧 Masih tahap pengembangan untuk validasi data lapangan dan visualisasi interaktif
+Tahap pengembangan untuk GUI dasar dan validasi data lapangan
 
 
 
