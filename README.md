@@ -129,9 +129,10 @@ Jika **--model** tidak disebutkan, default tetap menggunakan **eksponensial**.
 * Grafik pertumbuhan populasi logistik
 * Data populasi tiap tahun (opsional, CSV/JSON jika dipilih)
 
-### Status
+## v5.0
+### Penambahan fitur GUI
+Untuk menjalankan program GUI, jalankan program **main_gui.py**
 
-Tahap pengembangan untuk GUI dasar dan validasi data lapangan
 
 
 
