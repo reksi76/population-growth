@@ -2,10 +2,12 @@ import sys, os, csv, json
 import numpy as np 
 import pathlib as path 
 
+# Memastikan program test berjalan dari parent directory
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
 
 from io_handler import simpan_csv, simpan_json
 
+# Memeriksa apakah fungsi_csv berjalan semestinya
 def test_simpan_csv(tmp_path):
     t = [0, 1, 2]
     P = [200, 210, 220]
@@ -21,10 +23,11 @@ def test_simpan_csv(tmp_path):
     with open(test_file) as f:
         reader = csv.reader(f)
         rows = list(reader)
-        assert rows[2] == ['Tahun', 'Populasi (Exponential)', 'Populasi (Logistic)']
+        assert rows[2] == ['Tahun', 'Populasi (Eksponensial)', 'Populasi (Logistik)']
         assert int(rows[3][1].replace('.','')) == 200
         assert int(rows[3][2].replace('.','')) == 210
 
+# Memeriksa apakah fungsi simpan_json berjalan semestinya
 def test_simpan_json(tmp_path):
     t = [0, 1, 2]
     P = [200, 210, 220]
@@ -38,5 +41,5 @@ def test_simpan_json(tmp_path):
         data = json.load(f)
 
     assert data[0]['Tahun'] == 0 
-    assert data[0]['Populasi (Exponential)'] == 200
-    assert data[0]['Populasi (Logistic)'] == 210
+    assert data[0]['Populasi (Eksponensial)'] == 200
+    assert data[0]['Populasi (Logistik)'] == 210
